@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/stylecontact.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Kontakt</title>
+</head>
+
+<body>
+    <div id="navigation">
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li><a href="index.html" class="navigation__link">HOME</a></li>
+                <li><a href="viski.html" class="navigation__link">VISKI</a></li>
+                <li class="navigation__logo">TWO DOVES</li>
+                <li><a href="galerija.html" class="navigation__link">GALERIJA</a></li>
+                <li><a href="izlet_u_destileriju.html" class="navigation__link">IZLET U DESTILERIJI</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="form">
+        <h2>Zakažite posetu destileriji</h2>
+        <div id="error"></div>
+        <form id="form1">
+            <input id="ime_prezime" type="text" name="field1" placeholder="Ime i prezime" />
+            <input id="email" type="email" name="field2" placeholder="Email" />
+            <textarea id="poruka" placeholder="Poruka" ></textarea>  <!-- onkeyup="adjust_textarea(this)" -->
+            <label for="checkbox">Prihvatam da imam više od 18 godina.</label><br>
+            <input id="checkbox" type="checkbox" name="checkbox"><br>
+            <!-- <button id="posalji" type="submit" value="Pošaljite poruku" name="Posaljite poruku"> -->
+            <button id="posalji" type="submit" value="posalji">Posaljite poruku</button>
+
+        </form>
+    </div>
+
+
+    <footer class="footer">
+        <h1>TWO DOVES</h1>
+        <p id="footer__slogan">Pijte odgovorno</p>
+        <p id="footer__adresa">Adresa: Beogradska 1, Novi Sad, Srbija</p>
+        <p id="footer__molba">Molimo vas ne dajte alkohol osobama mlađim od 18 godina.</p>
+        <p id="footer__rightsreserved">All rights reserved. All other trademarks and trade names are properties of their respective owners.
+        </p>
+
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+#form{
+	width: 34%;
+	padding: 2em;
+	background: #FFFFFF;
+	margin: 4em auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+#form h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	color: #797979;
+	font-size: 1.5em;
+	font-weight: 100;
+	padding: 1.3em;
+}
+
+#ime_prezime {
+	margin-top: 0.5em;
+}
+
+#ime_prezime,
+#email,
+#poruka
+{
+	box-sizing: border-box;	
+	display: block;
+	width: 100%;
+	padding: 0.5em;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	/* background: transparent; */
+	margin-bottom: 0.6em;
+	font: 1.3em Arial, Helvetica, sans-serif;
+	height: 3em;
+}
+#form textarea{
+	overflow: hidden;
+}
+
+#posalji {
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	padding: 0.6em 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#posalji:hover {
+	background-color:#34CACA;
+}

@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-size: 12px;
+}
+
+
+#navigation {
+    padding: 1em 30em 1em 30em;
+    background-color: #141A26;
+    color:#FAFAFA;
+}
+
+.navigation__nav {
+    font-size: 1.2em;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #D9A87E;
+    margin-right: 1em;
+    margin-left: 1em;
+    
+}
+
+.navigation__logo {
+    margin: 0 2em 0 2em;
+    font-size: 1.94em;
+}
+
+
+
+
+.header {
+    height: 85vh;
+    background-image: linear-gradient( 
+        to right bottom,
+     rgba(0,0,0, 0.7), 
+     rgba(20,26,38, 0.5)),
+        url("../img/whiskey.jpg");  
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    border: 1px solid black;
+    background-attachment: fixed;
+}
+
+
+.heading__slogan {
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 5.5em;
+}
+
+.header__button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 1.5em;
+    background-color: rgba(20,26,38, 0.7);
+    text-decoration: none;
+    padding: 0.6em 1em;
+    text-transform: uppercase;
+    border: 2px solid #D9A87E;
+    transition: 0.8s;
+}
+
+.header__button:hover {
+    background-color: #D9A87E;
+    color: #141A26;
+    font-weight: 700;
+}
+
+
+.main {
+    height: 100vh;
+    background-image: linear-gradient(
+        to left, rgb(0,0,0), rgba(0,0,0, 0.95) 50%, rgba(0,0,0,0)),  
+        url("../img/workers.jpg");  
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    border: 1px solid black;
+}
+
+.main__text{
+    color: #fafafa;
+    top: 27%;
+    left: 60%;
+    right: 9.6%;
+    font-size: 1.6em;
+    position: absolute;
+    padding: 0.6em 1em;
+    text-align: right;
+    line-height: 1.9;
+    letter-spacing: 0.1em;
+}
+
+
+.destillery {
+    height: 90vh;
+    background-image: linear-gradient(
+        to right, rgb(0,0,0), rgba(0,0,0, 0.95) 40%, rgba(0,0,0,0)),  
+        url("../img/destilety.jpg");  
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    filter: brightness(50%);
+    border: 1px solid black;
+    background-attachment: fixed;
+}
+
+
+.destillery__button{
+    position: absolute;
+    top: 53%;
+    left: 15%;
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 1.5em;
+    background-color: rgba(20,26,38, 0.7);
+    text-decoration: none;
+    padding: 0.6em 1em;
+    text-transform: uppercase;
+    border: 2px solid #D9A87E;
+    transition: 0.8s;
+}
+
+.destillery__button:hover {
+    background-color: #D9A87E;
+    color: #141A26;
+    font-weight: 700;
+}
+
+
+.destillery__heading__text {
+    color: #fafafa;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 4em;
+}
+
+.footer {
+    background-color: #D9A87E;
+    color: #333333;
+    text-align: center;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    padding-bottom: 5em;
+    padding-top: 3em;
+    filter: brightness(80%);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.main1 {
+    height: 100vh;
+    background-image: linear-gradient(
+    to right bottom,
+    rgba(0,0,0, 0.7), 
+    rgba(20,26,38, 0.5)),  
+        url("../img/komnjenje.jpg");  
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    border: 1px solid black;
+    background-attachment: fixed;
+}
+
+.main2 {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right, rgb(0,0,0), rgba(0,0,0, 0.6) 50%, rgba(0,0,0,0)),  
+        url("../img/fermentacija.jpg");  
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    border: 1px solid black;
+}
+
+.main3 {
+    height: 100vh;
+    background-image: linear-gradient(
+        to left, rgb(0,0,0), rgba(0,0,0, 0.6) 50%, rgba(0,0,0,0)),  
+        url("../img/destilacija.jpg");  
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    border: 1px solid black;
+}
+
+.main4 {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right, rgb(0,0,0), rgba(0,0,0, 0.6) 50%, rgba(0,0,0,0)),url("../img/maturation.jpg");  
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    border: 1px solid black;
+    background-attachment: fixed;
+}
+
+/* ************************************* */
+
+
+#heading1 {
+    position: absolute;
+    font-size: 4em;
+    color: #FAFAFA;
+    top: 15%;
+    left: 10%;
+}
+
+#paragpraph1 {
+    position: absolute;
+    color: #FAFAFA;
+    top: 25%;
+    left: 10%;
+    right: 55%;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1.5;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 1.2em;
+}
+
+/* ************************************* */
+#heading2 {
+    position: absolute;
+    font-size: 4em;
+    color: #FAFAFA;
+    top: 25%;
+    left: 71.5%;  
+}
+
+#paragpraph2 {
+    position: absolute;
+    color: #FAFAFA;
+    top: 35%;
+    left: 51%;
+    right: 10%;
+    text-align: right;
+    font-size: 2em;
+    line-height: 1.5;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 1.2em;
+}
+
+/* ************************************* */
+
+#heading3 {
+    position: absolute;
+    font-size: 4em;
+    color: #FAFAFA;
+    top: 25%;
+    left: 10%; 
+}
+
+#paragpraph3 {
+    position: absolute;
+    color: #FAFAFA;
+    top: 35%;
+    left: 10%;
+    right: 55%;
+    text-align: left;
+    font-size: 2em;
+    line-height: 1.5;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 1.2em;
+}
+/* ************************************* */
+
+#heading4 {
+    position: absolute;
+    font-size: 4em;
+    color: #FAFAFA;
+    top: 25%;
+    left: 45%;  
+}
+
+#paragpraph4 {
+    position: absolute;
+    color: #FAFAFA;
+    top: 35%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 1.2em;
+}
+
+@media screen and (max-width: 1420px) {
+    body {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1187px) {
+    body {
+        font-size: 9px;
+    }
+}
+
+
+
+@media screen and (max-width:1070px) {
+    body {
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:955px) {
+    body {
+        font-size: 7px;
+    }
+}
+@media screen and (max-width:850px) {
+    body {
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width:726px) {
+    body {
+        font-size: 5.5px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    body {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width:585px) {
+    body {
+        font-size: 4.5px;
+    }
+}
+@media screen and (max-width:525px) {
+    body {
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    body {
+        font-size: 3.5px;
+    }
+}
+
+
+
+
+
+

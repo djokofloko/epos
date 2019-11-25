@@ -1,0 +1,8 @@
+#gallery_background {
+    padding-top: 2em;
+    background-color: rgba(156, 54, 31, 0.9);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
